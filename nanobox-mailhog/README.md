@@ -6,8 +6,8 @@ Install MailHog into your workflow, making it available at the URL `/mailbox`.
 Make sure to have the following environment variables set for Nanobox:
 
 ```bash
-$ nanobox evar add dry-run MAIL_USER=<username> MAIL_PASS=<password>
-$ nanobox evar add test MAIL_USER=<username> MAIL_PASS=<password>
+$ nanobox evar add dry-run MAIL_USER="<username>" MAIL_PASS="<password>"
+$ nanobox evar add test MAIL_USER="<username>" MAIL_PASS="<password>"
 $ nanobox evar add prod DISABLE_MAILHOG=1
 ```
 
